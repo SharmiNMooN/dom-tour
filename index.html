@@ -11,6 +11,19 @@
         li {
             color: cornflowerblue;
         }
+
+        #fruit-title {
+            color: goldenrod;
+        }
+
+        #places-title {
+            color: brown;
+
+        }
+
+        .important-places {
+            color: mediumvioletred;
+        }
     </style>
 </head>
 
@@ -19,22 +32,50 @@
         <h1>Welcome To my Dom</h1>
     </header>
     <main>
-        <h1>My Awesome new dom tour</h1>
-        <ul>
-            <li>Jalali set</li>
-            <li>Shafayet</li>
-            <li>Bonobash</li>
-            <li>Vhindeshi Tara</li>
-        </ul>
+        <section>
+            <h1>My Awesome new dom tour</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cum quas ab corporis non suscipit quod recusandae aut inventore ea eos enim,
+                reiciendis optio rerum impedit asperiores maxime perspiciatis ipsam odit!</p>
+            <ul>
+                <li>Jalali set</li>
+                <li>Shafayet</li>
+                <li>Bonobash</li>
+                <li>Vhindeshi Tara</li>
+            </ul>
 
-        <ul>
-            <li>Aplle</li>
-            <li>Banana</li>
-            <li>Mango</li>
-            <li>Orange</li>
-        </ul>
+        </section>
+
+        <section>
+            <h1 id="fruit-title">I like this type fruits</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Explicabo adipisci obcaecati neque necessitatibus eos, cumque ea consequuntur vitae modi, eum dolor.
+                Quas possimus quibusdam minima fugiat ipsam rerum, voluptatibus perferendis!</p>
+            <ul>
+                <li>Aplle</li>
+                <li>Banana</li>
+                <li>Mango</li>
+                <li>Orange</li>
+            </ul>
+
+        </section>
+        <section>
+            <h1 id="places-title">I like to visit this places</h1>
+            <ul>
+                <li class="important-places">Kaba Ghor</li>
+                <li class="important-places">Swizerland</li>
+                <li class="important-places">Dubai</li>
+                <li class="important-places">Canada</li>
+                <li>Italy</li>
+            </ul>
+        </section>
+
+
     </main>
     <script src="./js/dom.js"></script>
+    <script>
+        console.log('Added js in html file');
+    </script>
     <script>
         const liCollection = document.getElementsByTagName('li');
         // console.log('liCollection');
