@@ -8,5 +8,14 @@ for(const section of sections){
  section.style.backgroundColor = 'lightskyblue';
 
 
-
  }
+//  const placesContainer = document.getElementById('places-container');
+//  placesContainer.style.backgroundColor = 'lightgray';
+
+ const placesContainer = document.getElementById('places-container');
+ placesContainer.classList.add('yellow-bg');
+ placesContainer.classList.add('text-center');
+ placesContainer.classList.remove('large-text');
+ 
+ 
+
