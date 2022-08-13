@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <style>
         li {
-            color: cornflowerblue;
+            color: darkmagenta;
         }
 
         #fruit-title {
@@ -17,7 +17,8 @@
         }
 
         .fruit-container li {
-            color: rgb(29, 204, 134);
+            color: darkblue;
+
         }
 
         #places-title {
@@ -33,7 +34,7 @@
 
 <body>
     <header>
-        <h1>Welcome To my Dom</h1>
+        <h1 id="head-title">Welcome To my Dom</h1>
     </header>
     <main>
         <section>
@@ -79,6 +80,7 @@
 
     </main>
     <script src="./js/dom.js"></script>
+    <script src="./js/styleInjs.js"></script>
     <script>
         console.log('Added js in html file');
     </script>
@@ -88,13 +90,13 @@
         const liCollection = document.getElementsByTagName('li');
         // console.log('liCollection');
         for (const li of liCollection) {
-            console.log(li.innerText);
+            // console.log(li.innerText);
         }
 
         // option-1: getElementsByTagName
         const allHeadings = document.getElementsByTagName('h1');
         for (const h1 of allHeadings) {
-            console.log(h1.innerText);
+            // console.log(h1.innerText);
         }
         // option-2: getElementById
 
@@ -105,14 +107,14 @@
 
         const places = document.getElementsByClassName('important-places');
         for (const place of places) {
-            console.log(place.innerText);
+            // console.log(place.innerText);
         }
         //  query selector
         // query selectorAll
         const someLi = document.getElementsByClassName('fruit-container li');
         //console.log(someLi);
         for (const li of someLi) {
-            console.log(li.innerText);
+            // console.log(li.innerText);
         }
 
 

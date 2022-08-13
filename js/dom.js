@@ -1,2 +1,2 @@
 console.log('Hello From Js');
-console.log(Document);
+console.log('Document');
